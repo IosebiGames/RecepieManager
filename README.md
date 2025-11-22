@@ -12,4 +12,4 @@ Preparation for this Project originally started on October 8th, But development 
 * Automatic Screen Cleanup:
   ![gif alt](RecepieManager/src/images/cleanup.gif)
   * More Information Tab:
-  ![gif alt](RecepieManager/src/images/MoreInformation.gif)
+  ![gif alt](RecepieManager/src/images/InformationTab.gif)
