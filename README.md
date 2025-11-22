@@ -9,3 +9,5 @@ Preparation for this Project originally started on October 8th, But development 
 ![image alt](RecepieManager/src/images/RecepieManager.jpg)
 * Startup loading bar:
   ![gif alt](RecepieManager/src/images/RecepieManager_GIF.gif)
+* Automatic Screen Cleanup:
+  ![gif alt](RecepieManager/src/images/cleanup.gif)
