@@ -14,7 +14,7 @@ Preparation for this Project originally started on October 8th, But development 
 ![image alt](RecepieManager/images/app_image.jpg)
 * Startup loading bar 📶:
   ![gif alt](RecepieManager/images/startup_system.gif)
-  * Choose food products 🍔:
+* Choose food products 🍔:
   ![gif alt](RecepieManager/images/choose_food.gif)
 * Automatic Screen Cleanup 🧽:
   ![gif alt](RecepieManager/images/automatic_screen_cleanup.gif)
