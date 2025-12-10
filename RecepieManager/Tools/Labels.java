@@ -11,7 +11,6 @@ public class Labels {
 	public Labels(Screen s) {
 		this.screen = s;
 	}
-
 	public void createLabel(JLabel label, Font font, Color foregroundColor, int[] labelBounds, boolean focusableStatus, JPanel partPanel) {
 		label.setBounds(labelBounds[0], labelBounds[1], labelBounds[2], labelBounds[3]);
 		label.setFocusable(focusableStatus);
