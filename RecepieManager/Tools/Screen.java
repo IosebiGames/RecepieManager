@@ -2,13 +2,14 @@ package Tools;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 
 public class Screen {
 	
 	public JFrame window;
 	
 	public void createWindow() {
-		window = new JFrame("Recepie Manager");
+		window = new JFrame("Recipie Manager");
 		window.setResizable(false);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setPreferredSize(new Dimension(804, 484));
@@ -17,7 +18,11 @@ public class Screen {
         window.setVisible(true);
         window.getContentPane().setLayout(null);
         
-        setIcon(new ImageIcon(getClass().getResource("/images/icon.png")));
+        try {
+			setIcon(new ImageIcon(new ResourceLoader().getImage("/images/icon.png")));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	private void setIcon(ImageIcon icon) {
 		window.setIconImage(icon.getImage());
