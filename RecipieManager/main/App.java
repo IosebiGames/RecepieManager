@@ -27,7 +27,7 @@ public class App {
 			new JLabel("Foods & Drinks"), 
 			new JLabel(""), 
 			new JLabel(""), 
-			new JLabel("Recepies"),
+			new JLabel("Recipies"),
 			new JLabel(""),
 			new JLabel(""),
 			new JLabel(""), 
@@ -134,3 +134,4 @@ public class App {
 	     });
 	}
 }
+
