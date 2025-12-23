@@ -1,29 +1,11 @@
-<img width="3072" height="1946" alt="image" src="https://github.com/IosebiGames/RecipieManager/blob/main/RecipieManager/images/app_image.jpg?raw=true" />
-<img width="3072" height="1946" alt="image" src="https://github.com/IosebiGames/RecipieManager/blob/main/RecipieManager/images/app_image2.jpg?raw=true" />
-FINAL UPDATE OF DECEMBER 10 2025:
-                           the person still has not contacted, I finally consider this project ended and fully complete.
+RecipieManager is a Small project. it is a Desktop Application which lets user pick food, check their Recipies, Allergen content, their nutritional information, request Recipies and more.
+App itself is mainly built in Java Swing and Java AWT, But it partially uses FlatLaf for better Look & Feel. Code for this App is both complex and clean at the same time, After finishing this Project, I gained more experience.
+Idea for this App at the beggining came from one person who addressed sort of Java Helping group because they needed someone who would build an app for them before October 30, because that's a deadline time. On October 4th, I respectfully reach out to them and we both agreed to start a work, I finished the app even earlier at around October 27. However, this person has not contacted on October 30. But on November 9th, they have replied that what I have done is sufficient and how it would be perfect if I hand over the app. I did agree but I wanted to discuss details before handover so I send them a message, but they have not contacted at all for full 43 days (almost 44). Now I consider this Project finished.
 
-UPDATE AS OF DECEMBER 3 2025 16:49:
-                    the person who contacted me has not reached or contacted again for full 24 days (almost 25).
-I can consider this project finished and closed. Working on this project gave me some more experience.
-
-NOVEMBER 22 2025:
-
-RecepieManager App in Java
-
-This is a new Java Project that I have started. It's about building a Recepie Manager App.
-
-This idea itself is not originally coming from me, but it all started when one person from a Discord was in need to build an App as a School Project. They addressed sort of "Java helping Community", so I decided to help them and also it kind of "boosts" my experience.
-The App itself is mostly made of In-Built Java Swing Framework, but it uses Java AWT as well.
-RecepieManger App lets the User (Non-Server related Client) pick a Meat, Burger, Ice-Cream and calculate total price, and also generate some Allergen data and amount too.
-It produces some button click sound, it has images in it even if Jar file is exported (I fixed that issue of Jar file not containing image inside whenever you run it).
-Following App (Project) does not use any Databases since it's a casual, small School project, and tiny PrintStream usage was enough to handle this.
-Preparation for this Project originally started on October 4th, but development started shortly after (October 10th) and has continued until the Middle of October, even if it was a Project finishing date.
-But this does not mean it is finished; changes and improvements are about to undergo.
-
-* Demonstrational features 👇
-* Design 🍥:
+* Design 📕:
 ![image alt](RecipieManager/images/app_image.jpg)
+![image alt](RecipieManager/images/app_image2.jpg)
+* Demonstrational features 👇
 * Startup loading bar 📶:
   ![gif alt](RecipieManager/images/startup_system.gif)
 * Choose food products 🍔:
