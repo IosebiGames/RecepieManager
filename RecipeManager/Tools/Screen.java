@@ -9,7 +9,7 @@ public class Screen {
 	public JFrame window;
 	
 	public void createWindow() {
-		window = new JFrame("Recipie Manager");
+		window = new JFrame("Recipe Manager");
 		window.setResizable(false);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setPreferredSize(new Dimension(804, 484));
@@ -28,3 +28,4 @@ public class Screen {
 		window.setIconImage(icon.getImage());
 	}
 }
+
