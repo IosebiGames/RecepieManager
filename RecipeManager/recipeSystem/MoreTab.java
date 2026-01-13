@@ -20,7 +20,7 @@ public class MoreTab {
     private Button b;
     private App app;
 	public JButton[] buttons = {
-			new JButton("Request all Recipies"),
+			new JButton("Request all Recipes"),
 			new JButton("Close"),	
 	};
 	public JLabel[] labels = {
@@ -36,7 +36,7 @@ public class MoreTab {
 	public JPanel[] panels = {
 		    new JPanel()
 	};
-	private RecipieHandler rh;
+	private RecipeHandler rh;
 	private ResourceLoader rl;
     private Timer resetTimer;
     private int counter = 0;
@@ -125,7 +125,7 @@ public class MoreTab {
 		panels[0].add(labels[7]);
 		
 		buttons[0].addActionListener(_ -> {
-        	rh.writeRecepie("FoodRecipies.txt", "Meats: beef, salt, pepper, garlic. \nBurgers: beef patty, bun, lettuce, tomato. \nIce-Cream: milk, cream, sugar, egg yolks. \nTomato Salad: tomato, olive oil, salt, vinegar, onion. \nChicken Salad: mayonnaise, celery, lettuce. ");
+        	rh.writeRecepie("FoodRecipes.txt", "Meats: beef, salt, pepper, garlic. \nBurgers: beef patty, bun, lettuce, tomato. \nIce-Cream: milk, cream, sugar, egg yolks. \nTomato Salad: tomato, olive oil, salt, vinegar, onion. \nChicken Salad: mayonnaise, celery, lettuce. ");
         	rh.writeAllergen("FoodAllergens.txt", "Chicken Salad: Mayonnaise - can be allergic to some people, possible risk. \nlettuce - Pretty rare allergy. \nBurgers: Tomato - can be allergic to some people, low risk but possible. \nlettuce - Pretty rare allergy. \nMeats: Meat - can be allergic to some people, low risk in Many Regons but possible. \npepper - Pretty rare allergy. \nIce-Cream Milk - very high risk for someone with lactose intolerance. \nEgg yolks - Possible but rare allergy. Tomato: can be allergic to some people, low risk but possible. \nTomato Salad: olivie oil - No allergy but risky for people with high-cholesterol or digestive issues. \nChicken Salad: Mayonnaise - can be allergic to some people, possible risk. \nlettuce - Pretty rare allergy.");
             buttons[0].setEnabled(false);
 		});
