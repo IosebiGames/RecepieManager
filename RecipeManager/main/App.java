@@ -73,7 +73,7 @@ public class App {
 		panel = new Panel(screen);
 		button = new Button();
 		dec = new Decorator(this);
-		rh = new RecipieHandler(this);
+		rh = new RecipeHandler(this);
 		mt = new MoreTab(this);
         b = new Bounds();
 	}
@@ -119,7 +119,7 @@ public class App {
 		} catch (IOException e) {
 		    System.out.println("Failed to decorate: " + e.getMessage());
 		}
-	    rh.startRecepieSystem();
+	    rh.startRecepeSystem();
 	    
 	    tb.validate(); 
 	}
