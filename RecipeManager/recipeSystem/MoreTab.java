@@ -62,7 +62,7 @@ public class MoreTab {
 		p = new Panel(app.screen);
 		l = new Labels(app.screen);
 		b = new Button();
-		rh = new RecipieHandler(app);
+		rh = new RecipeHandler(app);
 		rl = new ResourceLoader();
 		resetTimer.start();
 		window.setResizable(false);
